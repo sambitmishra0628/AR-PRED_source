@@ -1,0 +1,57 @@
+
+***Preparing environment for residue conservation calculations***
+Fetching sequence for PDB 1FIY_ca.pdb
+***Running BLAST for 1FIY_ca.pdb***BLAST CMD Output 
+Wrote to file /home/sambit/Dropbox/Jernigan_Lab_SKM/Lab_Research/PROJECTS/ResidueLevel-FunctionalScore/AR-PRED_source/example_5/residue_conservation/blast_output//home/sambit/Dropbox/Jernigan_Lab_SKM/Lab_Research/PROJECTS/ResidueLevel-FunctionalScore/AR-PRED_source/example_5/residue_conservation/blast_output/1FIY_ca.ids.txt
+***Fetching sequences for BLAST Hit IDs***BLAST DB CMD Output: 
+****Running CD-Hit and obtaining non-redundant sequences for MSA***CD Hit command output: ================================================================
+Program: CD-HIT, V4.6 (+OpenMP), Nov 03 2015, 16:27:31
+Command: cd-hit -i
+         /home/sambit/Dropbox/Jernigan_Lab_SKM/Lab_Research/PROJECTS/ResidueLevel-FunctionalScore/AR-PRED_source/example_5/residue_conservation/blast_output/1FIY_ca_homologs.seq
+         -o
+         /home/sambit/Dropbox/Jernigan_Lab_SKM/Lab_Research/PROJECTS/ResidueLevel-FunctionalScore/AR-PRED_source/example_5/residue_conservation/ClustalO_input/1FIY_ca.cdhitnrseqs.fasta
+         -c 0.95
+
+Started: Sat Mar 16 19:24:56 2019
+================================================================
+                            Output                              
+----------------------------------------------------------------
+total seq: 4438
+longest and shortest : 2346 and 697
+Total letters: 3932274
+Sequences have been sorted
+
+Approximated minimal memory consumption:
+Sequence        : 4M
+Buffer          : 1 X 11M = 11M
+Table           : 1 X 65M = 65M
+Miscellaneous   : 0M
+Total           : 80M
+
+Table limit with the given memory limit:
+Max number of representatives: 732685
+Max number of word counting entries: 89877256
+
+comparing sequences from          0  to       4438
+....
+     4438  finished        973  clusters
+
+Apprixmated maximum memory consumption: 87M
+writing new database
+writing clustering information
+program completed !
+
+Total CPU time 2.61
+
+***Running ClustalO MSA for 1FIY_ca.cdhit_subset_4_msa.fasta***Clustal omega output: 
+***Running rate4site for /home/sambit/Dropbox/Jernigan_Lab_SKM/Lab_Research/PROJECTS/ResidueLevel-FunctionalScore/AR-PRED_source/example_5/residue_conservation/ClustalO_output/1FIY_ca.cdhit_subset_4_msa.fasta.aln***
+Skipping calculations for amino acid type as feature file already exists!
+Skipping calculations for amino acid identity as feature file already exists!
+Skipping calculations for amino acid hydropathy index as feature file already exists!
+Skipping calculations for residue mean square fluctuations as feature file already exists!
+Running calculations for perturbation response...
+Done!
+Running calculations for network centralities...
+Done!
+Running calculations for shortest dynamically correlated path between allosteric and active site residues
+Done!

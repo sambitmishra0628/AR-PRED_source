@@ -1,0 +1,90 @@
+HEADER
+HEADER This is a pqr format file writen by the programm fpocket.                 
+HEADER It represent the voronoi vertices of a single pocket found by the         
+HEADER algorithm.                                                                
+HEADER                                                                           
+HEADER Information about the pocket    29:
+HEADER 0  - Pocket Score                      : 0.6930
+HEADER 1  - Drug Score                        : 0.0198
+HEADER 2  - Number of V. Vertices             :    68
+HEADER 3  - Mean alpha-sphere radius          : 3.8042
+HEADER 4  - Mean alpha-sphere SA              : 0.5170
+HEADER 5  - Mean B-factor                     : 0.7391
+HEADER 6  - Hydrophobicity Score              : 31.3333
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Volume Score                      : 4.1667
+HEADER 9  - Real volume (approximation)       : 670.4816
+HEADER 10 - Charge Score                      :    -2
+HEADER 11 - Local hydrophobic density Score   : 26.9412
+HEADER 12 - Number of apolar alpha sphere     :    34
+HEADER 13 - Proportion of apolar alpha sphere : 0.5000
+ATOM  16243  POL STP    29      44.654  20.088  20.906    0.00     3.94
+ATOM  23695  POL STP    29      44.757  20.276  21.214    0.00     3.96
+ATOM  22844  POL STP    29      44.564  20.093  20.805    0.00     3.87
+ATOM  23695 APOL STP    29      44.811  19.785  20.979    0.00     4.12
+ATOM  22844  POL STP    29      44.009  20.461  20.515    0.00     3.41
+ATOM  22844 APOL STP    29      43.816  19.492  19.894    0.00     3.71
+ATOM  22844  POL STP    29      44.095  18.965  19.878    0.00     4.12
+ATOM  22844  POL STP    29      43.929  19.180  19.841    0.00     3.93
+ATOM  22844 APOL STP    29      43.736  19.352  19.694    0.00     3.73
+ATOM  23701  POL STP    29      44.852  17.578  20.258    0.00     5.26
+ATOM  22848  POL STP    29      43.820  18.519  18.751    0.00     4.14
+ATOM  14988  POL STP    29      41.872  19.675  17.535    0.00     3.05
+ATOM  14988  POL STP    29      41.905  19.710  17.516    0.00     3.04
+ATOM  14988  POL STP    29      42.338  18.362  17.562    0.00     3.58
+ATOM  22848  POL STP    29      43.581  18.653  18.464    0.00     3.99
+ATOM  14988  POL STP    29      41.918  19.652  17.544    0.00     3.07
+ATOM  10706  POL STP    29      41.068  16.075  17.827    0.00     4.32
+ATOM  14988  POL STP    29      41.533  17.547  17.352    0.00     3.69
+ATOM  22844  POL STP    29      43.053  19.247  18.230    0.00     3.51
+ATOM  22848  POL STP    29      43.835  18.712  18.348    0.00     3.88
+ATOM  23695  POL STP    29      44.742  20.337  21.257    0.00     3.93
+ATOM  12179 APOL STP    29      47.206  22.969  24.451    0.00     3.05
+ATOM  23694 APOL STP    29      46.821  22.456  23.595    0.00     3.15
+ATOM  12181 APOL STP    29      47.335  22.900  24.531    0.00     3.02
+ATOM  16926 APOL STP    29      46.568  22.413  22.275    0.00     3.26
+ATOM  23694 APOL STP    29      46.264  22.098  22.425    0.00     3.46
+ATOM  23695 APOL STP    29      46.669  22.310  23.108    0.00     3.23
+ATOM  23695 APOL STP    29      46.166  21.135  21.731    0.00     3.49
+ATOM  23695 APOL STP    29      44.763  20.290  21.221    0.00     3.95
+ATOM  23701  POL STP    29      44.865  17.533  20.243    0.00     5.29
+ATOM  23701 APOL STP    29      46.501  17.224  20.053    0.00     5.49
+ATOM  14998  POL STP    29      46.582  16.192  20.326    0.00     5.78
+ATOM  23707  POL STP    29      46.568  16.247  20.336    0.00     5.78
+ATOM  23707  POL STP    29      46.551  15.997  20.415    0.00     5.87
+ATOM  16898 APOL STP    29      48.381  16.904  16.418    0.00     3.49
+ATOM  16898  POL STP    29      48.214  17.662  15.640    0.00     3.24
+ATOM  16440 APOL STP    29      48.128  19.508  18.371    0.00     3.67
+ATOM  16934 APOL STP    29      47.471  18.593  19.545    0.00     4.39
+ATOM  16940 APOL STP    29      48.329  19.553  19.210    0.00     3.76
+ATOM  16243  POL STP    29      47.613  17.964  16.755    0.00     3.93
+ATOM  16898 APOL STP    29      47.972  17.640  16.497    0.00     3.68
+ATOM  23647  POL STP    29      47.505  18.238  16.335    0.00     3.77
+ATOM  16243  POL STP    29      47.405  18.455  17.076    0.00     4.09
+ATOM  16440  POL STP    29      48.120  19.481  17.496    0.00     3.62
+ATOM  23647  POL STP    29      47.317  18.680  16.660    0.00     3.94
+ATOM  16886  POL STP    29      48.161  19.953  17.089    0.00     3.37
+ATOM  23647 APOL STP    29      47.683  19.412  16.660    0.00     3.53
+ATOM  23647  POL STP    29      48.215  17.692  15.555    0.00     3.21
+ATOM  23701 APOL STP    29      46.572  17.325  20.082    0.00     5.43
+ATOM  23695 APOL STP    29      46.350  18.576  20.501    0.00     4.58
+ATOM  16936 APOL STP    29      48.683  20.765  19.412    0.00     3.09
+ATOM  16936 APOL STP    29      49.587  19.487  19.752    0.00     3.10
+ATOM  16940 APOL STP    29      49.253  19.655  19.502    0.00     3.25
+ATOM  30923 APOL STP    29      47.132  18.901  16.301    0.00     3.78
+ATOM  30923 APOL STP    29      47.581  19.398  16.545    0.00     3.51
+ATOM  30924 APOL STP    29      47.028  18.712  15.111    0.00     3.37
+ATOM  23647 APOL STP    29      48.226  17.686  15.484    0.00     3.18
+ATOM  23648 APOL STP    29      47.317  18.509  14.478    0.00     3.05
+ATOM  30926 APOL STP    29      47.071  18.716  14.466    0.00     3.18
+ATOM  23699  POL STP    29      47.718  17.001  21.477    0.00     4.71
+ATOM  23707 APOL STP    29      46.851  17.110  20.343    0.00     5.34
+ATOM  30923  POL STP    29      46.430  19.322  15.792    0.00     3.43
+ATOM  10706  POL STP    29      45.833  19.184  13.800    0.00     3.14
+ATOM  30924  POL STP    29      46.077  19.241  14.233    0.00     3.18
+ATOM  10750 APOL STP    29      46.049  18.958  13.692    0.00     3.13
+ATOM  30926 APOL STP    29      46.548  18.881  14.233    0.00     3.21
+ATOM  30926 APOL STP    29      46.639  18.835  14.338    0.00     3.22
+ATOM  30926 APOL STP    29      47.159  18.788  14.128    0.00     3.05
+TER
+END

@@ -1,0 +1,12 @@
+Skipping calculations for amino acid type as feature file already exists!
+Skipping calculations for amino acid identity as feature file already exists!
+Skipping calculations for amino acid hydropathy index as feature file already exists!
+Skipping calculations for residue mean square fluctuations as feature file already exists!
+Skipping calculations for perturbation response as feature file already exists!
+Running calculations for network centralities...
+Skipping calculations for network centrality with adjacency matrix as feature file already exists!
+Skipping calculations for network centrality with inverse distance matrix as feature file already exists!
+Skipping calculations for network centrality with BT potential matrix as feature file already exists!
+Skipping calculations for network centrality with dynamic correlation matrix as feature file already exists!
+Done!
+Skipping calculations for shortest dynamically correlated path between allosteric and active site residues as feature file already exists!

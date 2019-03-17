@@ -1,0 +1,58 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    32:
+HEADER 0  - Pocket Score                      : 0.2593
+HEADER 1  - Drug Score                        : 0.0346
+HEADER 2  - Number of V. Vertices             :    68
+HEADER 3  - Mean alpha-sphere radius          : 3.5350
+HEADER 4  - Mean alpha-sphere SA              : 0.4196
+HEADER 5  - Mean B-factor                     : 0.6642
+HEADER 6  - Hydrophobicity Score              : 40.5000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Volume Score                      : 3.9286
+HEADER 9  - Real volume (approximation)       : 348.0348
+HEADER 10 - Charge Score                      :    -1
+HEADER 11 - Local hydrophobic density Score   : 19.1613
+HEADER 12 - Number of apolar alpha sphere     :    31
+HEADER 13 - Proportion of apolar alpha sphere : 0.4559
+ATOM  10009  CD1 LEU A 639      29.137  47.914  11.398  1.00 -0.41           C 0
+ATOM   3620  CD2 LEU A 228      33.448  47.804  14.759  1.00 -0.41           C 0
+ATOM   1553  CG2 ILE A 104      34.963  50.032   9.942  1.00 -0.32           C 0
+ATOM   1620  CD1 LEU A 108      33.779  51.254  13.145  1.00 -0.41           C 0
+ATOM   1619   CG LEU A 108      32.318  51.643  12.984  1.00  0.35           C 0
+ATOM   3554  CD1 LEU A 224      34.827  45.880  10.647  1.00 -0.41           C 0
+ATOM   9958  CG2 THR A 635      31.990  45.450   8.335  1.00 -0.24           C 0
+ATOM   9968   CA GLY A 636      29.812  49.156   6.243  1.00 -0.03           C 0
+ATOM   9967    N GLY A 636      30.519  47.934   5.911  1.00 -0.42           N 0
+ATOM   1605  CG2 THR A 107      29.043  52.052   8.640  1.00 -0.24           C 0
+ATOM   1550    O ILE A 104      33.386  52.852   9.514  1.00 -0.57           O 0
+ATOM   1548   CA ILE A 104      34.986  51.736   8.107  1.00 -0.06           C 0
+ATOM   1604   CB THR A 107      30.211  52.904   8.168  1.00  0.37           C 0
+ATOM   9956    O THR A 635      29.172  46.715   7.173  1.00 -0.57           O 0
+ATOM   1534    O VAL A 103      33.865  53.504   6.331  1.00 -0.57           O 0
+ATOM   9905    O SER A 632      33.262  48.037   4.539  1.00 -0.57           O 0
+ATOM   1606  OG1 THR A 107      30.205  52.985   6.729  1.00 -0.68           O 0
+ATOM   1554  CD1 ILE A 104      35.637  48.605   7.366  1.00 -0.07           C 0
+ATOM   1536  CG1 VAL A 103      34.989  52.006   3.508  1.00 -0.32           C 0
+ATOM   9916    O LEU A 633      30.795  48.315   2.794  1.00 -0.57           O 0
+ATOM   1584   CZ ARG A 106      33.480  57.298   2.873  1.00  0.81           C 0
+ATOM   9310  ND1 HIS A 593      27.571  52.632   1.241  1.00 -0.38           N 0
+ATOM   1583   NE ARG A 106      32.667  57.382   3.924  1.00 -0.53           N 0
+ATOM   1586  NH2 ARG A 106      33.483  58.289   1.985  1.00 -0.86           N 0
+ATOM   9311  CE1 HIS A 593      27.630  52.916   2.528  1.00  0.21           C 0
+ATOM   9273   CB ALA A 590      31.078  54.298  -4.051  1.00 -0.18           C 0
+ATOM   9312  NE2 HIS A 593      28.508  52.098   3.089  1.00 -0.57           N 0
+ATOM   1585  NH1 ARG A 106      34.271  56.242   2.722  1.00 -0.86           N 1
+ATOM   1582   CD ARG A 106      32.606  56.327   4.946  1.00  0.05           C 0
+ATOM   9309  CD2 HIS A 593      29.028  51.260   2.121  1.00  0.13           C 0
+ATOM   9308   CG HIS A 593      28.427  51.598   0.955  1.00 -0.03           C 0
+ATOM   9920  CD2 LEU A 633      33.279  51.056   0.495  1.00 -0.41           C 0
+ATOM   9270   CA ALA A 590      30.753  52.841  -3.751  1.00  0.03           C 0
+ATOM   9307   CB HIS A 593      28.583  51.040  -0.406  1.00 -0.05           C 0
+ATOM   9272    O ALA A 590      28.451  52.315  -3.437  1.00 -0.57           O 0
+ATOM   9914   CA LEU A 633      32.971  48.468   1.841  1.00 -0.05           C 0
+ATOM   1621  CD2 LEU A 108      31.523  51.089  14.155  1.00 -0.41           C 0
+TER
+END

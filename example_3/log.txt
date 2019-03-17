@@ -1,0 +1,75 @@
+***Processing pdb file***
+	Wrote processed pdb to /home/sambit/Dropbox/Jernigan_Lab_SKM/Lab_Research/PROJECTS/ResidueLevel-FunctionalScore/AR-PRED_source/example_3/1JLR_A_processed.pdb
+***Parsing C-alpha coordinates***
+	Wrote C-alpha records to /home/sambit/Dropbox/Jernigan_Lab_SKM/Lab_Research/PROJECTS/ResidueLevel-FunctionalScore/AR-PRED_source/example_3/1JLR_A_ca.pdb
+
+***Running Accessibility Calculations for 1JLR_A_processed.pdb***
+	NACCESS Message: Running Accessibility calculations!
+
+	Wrote extracted SASA features to sasa_features.csv
+
+***Running Fpocket for file 1JLR_A_processed.pdb***
+	Fpocket Output: ***** POCKET HUNTING BEGINS ***** 
+***** POCKET HUNTING ENDS ***** 
+
+	Parsing results from FPocket
+	Wrote Pocket Features to /home/sambit/Dropbox/Jernigan_Lab_SKM/Lab_Research/PROJECTS/ResidueLevel-FunctionalScore/AR-PRED_source/example_3/pocket_features.csv!
+
+***Preparing environment for residue conservation calculations***
+Fetching sequence for PDB 1JLR_A_ca.pdb
+***Running BLAST for 1JLR_A_ca.pdb***BLAST CMD Output 
+Wrote to file /home/sambit/Dropbox/Jernigan_Lab_SKM/Lab_Research/PROJECTS/ResidueLevel-FunctionalScore/AR-PRED_source/example_3/residue_conservation/blast_output//home/sambit/Dropbox/Jernigan_Lab_SKM/Lab_Research/PROJECTS/ResidueLevel-FunctionalScore/AR-PRED_source/example_3/residue_conservation/blast_output/1JLR_A_ca.ids.txt
+***Fetching sequences for BLAST Hit IDs***BLAST DB CMD Output: 
+****Running CD-Hit and obtaining non-redundant sequences for MSA***CD Hit command output: ================================================================
+Program: CD-HIT, V4.6 (+OpenMP), Nov 03 2015, 16:27:31
+Command: cd-hit -i
+         /home/sambit/Dropbox/Jernigan_Lab_SKM/Lab_Research/PROJECTS/ResidueLevel-FunctionalScore/AR-PRED_source/example_3/residue_conservation/blast_output/1JLR_A_ca_homologs.seq
+         -o
+         /home/sambit/Dropbox/Jernigan_Lab_SKM/Lab_Research/PROJECTS/ResidueLevel-FunctionalScore/AR-PRED_source/example_3/residue_conservation/ClustalO_input/1JLR_A_ca.cdhitnrseqs.fasta
+         -c 0.95
+
+Started: Thu Mar 14 21:22:44 2019
+================================================================
+                            Output                              
+----------------------------------------------------------------
+total seq: 495
+longest and shortest : 481 and 193
+Total letters: 117365
+Sequences have been sorted
+
+Approximated minimal memory consumption:
+Sequence        : 0M
+Buffer          : 1 X 10M = 10M
+Table           : 1 X 65M = 65M
+Miscellaneous   : 0M
+Total           : 76M
+
+Table limit with the given memory limit:
+Max number of representatives: 2113595
+Max number of word counting entries: 90483298
+
+comparing sequences from          0  to        495
+
+      495  finished        333  clusters
+
+Apprixmated maximum memory consumption: 76M
+writing new database
+writing clustering information
+program completed !
+
+Total CPU time 0.09
+
+***Running ClustalO MSA for 1JLR_A_ca.cdhit_subset_4_msa.fasta***Clustal omega output: 
+***Running rate4site for /home/sambit/Dropbox/Jernigan_Lab_SKM/Lab_Research/PROJECTS/ResidueLevel-FunctionalScore/AR-PRED_source/example_3/residue_conservation/ClustalO_output/1JLR_A_ca.cdhit_subset_4_msa.fasta.aln***
+Running secondary structure calculations for 1JLR_A_processed.pdbMapping amino acid to respective type ...
+Done!
+Mapping amino acid to its respective identity ...
+Done!
+Mapping amino acid to its respective hydropathy index ...
+Done!
+Running calculations for residue mean square fluctuations...
+Done!
+Running calculations for perturbation response...
+Done!
+Running calculations for network centralities...
+Done!

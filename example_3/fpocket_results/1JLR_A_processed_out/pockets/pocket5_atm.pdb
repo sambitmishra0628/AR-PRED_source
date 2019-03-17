@@ -1,0 +1,47 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : 12.2716
+HEADER 1  - Drug Score                        : 0.1274
+HEADER 2  - Number of V. Vertices             :    39
+HEADER 3  - Mean alpha-sphere radius          : 4.5809
+HEADER 4  - Mean alpha-sphere SA              : 0.5499
+HEADER 5  - Mean B-factor                     : 0.6590
+HEADER 6  - Hydrophobicity Score              : 24.6667
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Volume Score                      : 4.4444
+HEADER 9  - Real volume (approximation)       : 697.7220
+HEADER 10 - Charge Score                      :     0
+HEADER 11 - Local hydrophobic density Score   : 23.6000
+HEADER 12 - Number of apolar alpha sphere     :    25
+HEADER 13 - Proportion of apolar alpha sphere : 0.6410
+ATOM   1548    O SER A 103      16.738  94.697  78.422  1.00 -0.57           O 0
+ATOM   1583  CG1 ILE A 105      12.327  92.482  79.661  1.00 -0.04           C 0
+ATOM   1585  CD1 ILE A 105      11.268  92.725  78.610  1.00 -0.07           C 0
+ATOM   1877    O ARG A 126      12.405  84.986  75.212  1.00 -0.59           O 0
+ATOM   1867   CB CYS A 125       9.315  89.302  75.687  1.00 -0.12           C 0
+ATOM   1906   CA VAL A 128      11.178  86.718  79.388  1.00 -0.09           C 0
+ATOM   1909   CB VAL A 128      10.154  87.883  79.239  1.00  0.30           C 0
+ATOM   1510  CD1 PHE A 101      14.199  95.317  70.936  1.00 -0.13           C 0
+ATOM   1508   CB PHE A 101      14.409  96.590  73.118  1.00 -0.03           C 0
+ATOM   1864   CA CYS A 125       9.143  88.445  74.428  1.00  0.02           C 0
+ATOM   1883  NH1 ARG A 126      12.839  86.620  69.056  1.00 -0.86           N 1
+ATOM   1874    N ARG A 126      10.010  86.263  73.821  1.00 -0.35           N 0
+ATOM   1512  CE1 PHE A 101      13.423  94.818  69.871  1.00 -0.17           C 0
+ATOM   1850    O VAL A 124       8.395  89.250  71.872  1.00 -0.57           O 0
+ATOM   1868   SG CYS A 125       9.097  91.077  75.452  1.00 -0.31           S 0
+ATOM   1514   CZ PHE A 101      12.079  95.186  69.746  1.00 -0.11           C 0
+ATOM   1507    O PHE A 101      17.539  96.447  72.814  1.00 -0.57           O 0
+ATOM   1509   CG PHE A 101      13.638  96.175  71.880  1.00  0.01           C 0
+ATOM   1911  CG2 VAL A 128      10.513  89.012  80.176  1.00 -0.32           C 0
+ATOM   1511  CD2 PHE A 101      12.295  96.538  71.732  1.00 -0.13           C 0
+ATOM   1851   CB VAL A 124       5.443  90.315  72.426  1.00  0.30           C 0
+ATOM   1106  OE1 GLU A  75       4.862  95.085  70.731  1.00 -0.82           O 0
+ATOM   1107  OE2 GLU A  75       4.129  93.252  69.778  1.00 -0.82           O 1
+ATOM   1145  CD1 LEU A  78       6.467  94.365  74.634  1.00 -0.41           C 0
+ATOM   1513  CE2 PHE A 101      11.516  96.047  70.674  1.00 -0.17           C 0
+ATOM   1880   CD ARG A 126      10.764  85.324  70.462  1.00  0.05           C 0
+TER
+END

@@ -1,0 +1,1 @@
+The description of the secondary structures used by DSSP is available at http://www.cmbi.ru.nl/dssp.html.

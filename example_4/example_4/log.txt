@@ -1,0 +1,6 @@
+***Processing pdb file***
+Error! No such file or directory at /home/sambit/Dropbox/Jernigan_Lab_SKM/Lab_Research/PROJECTS/ResidueLevel-FunctionalScore/AR-PRED_source/pdb_file_processing_scripts/verify_and_process_pdb.pl line 113.
+	Wrote processed pdb to /home/sambit/Dropbox/Jernigan_Lab_SKM/Lab_Research/PROJECTS/ResidueLevel-FunctionalScore/AR-PRED_source/example_4/example_4/1FIY_processed.pdb
+***Parsing C-alpha coordinates***
+ERROR! Protein too short. Must have atleast 50 residues with C-alpha atoms for calculations.
+ERROR while parsing C-alpha coordinates! Cannot proceed until current errors are fixed!

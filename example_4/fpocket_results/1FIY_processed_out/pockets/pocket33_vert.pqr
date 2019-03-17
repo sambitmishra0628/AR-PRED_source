@@ -1,0 +1,63 @@
+HEADER
+HEADER This is a pqr format file writen by the programm fpocket.                 
+HEADER It represent the voronoi vertices of a single pocket found by the         
+HEADER algorithm.                                                                
+HEADER                                                                           
+HEADER Information about the pocket    34:
+HEADER 0  - Pocket Score                      : 0.1046
+HEADER 1  - Drug Score                        : 0.0478
+HEADER 2  - Number of V. Vertices             :    41
+HEADER 3  - Mean alpha-sphere radius          : 3.4990
+HEADER 4  - Mean alpha-sphere SA              : 0.4076
+HEADER 5  - Mean B-factor                     : 0.7072
+HEADER 6  - Hydrophobicity Score              : 45.1818
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Volume Score                      : 4.0909
+HEADER 9  - Real volume (approximation)       : 319.5227
+HEADER 10 - Charge Score                      :    -1
+HEADER 11 - Local hydrophobic density Score   : 21.3043
+HEADER 12 - Number of apolar alpha sphere     :    23
+HEADER 13 - Proportion of apolar alpha sphere : 0.5610
+ATOM  12646 APOL STP    34      57.295  35.381  18.625    0.00     3.35
+ATOM  30376 APOL STP    34      57.176  35.509  17.950    0.00     3.60
+ATOM  30376 APOL STP    34      57.850  35.811  17.895    0.00     3.71
+ATOM  36127 APOL STP    34      56.963  35.676  17.667    0.00     3.62
+ATOM  36127 APOL STP    34      57.512  35.920  17.625    0.00     3.69
+ATOM  22990 APOL STP    34      51.603  33.275  18.758    0.00     3.19
+ATOM  30310 APOL STP    34      52.147  33.451  17.586    0.00     3.22
+ATOM  30318 APOL STP    34      51.179  33.480  18.991    0.00     3.03
+ATOM  30313 APOL STP    34      51.529  33.027  18.782    0.00     3.14
+ATOM  30334  POL STP    34      52.135  33.725  17.059    0.00     3.19
+ATOM  23010  POL STP    34      53.329  35.110  16.124    0.00     3.31
+ATOM  30334  POL STP    34      52.787  34.706  16.155    0.00     3.24
+ATOM  23010  POL STP    34      53.915  34.331  16.397    0.00     3.85
+ATOM  30310 APOL STP    34      53.789  34.259  16.399    0.00     3.81
+ATOM  36127  POL STP    34      53.916  34.331  16.397    0.00     3.85
+ATOM  36127  POL STP    34      53.916  34.332  16.397    0.00     3.85
+ATOM  30334  POL STP    34      53.056  34.220  16.313    0.00     3.52
+ATOM  36127 APOL STP    34      53.928  34.209  16.327    0.00     3.81
+ATOM  30376 APOL STP    34      56.038  34.049  17.872    0.00     3.17
+ATOM  36127 APOL STP    34      55.160  34.253  17.001    0.00     3.45
+ATOM  36127  POL STP    34      53.976  34.373  16.455    0.00     3.83
+ATOM  36121  POL STP    34      55.028  32.436  14.190    0.00     3.11
+ATOM  36121  POL STP    34      55.206  32.378  14.549    0.00     3.08
+ATOM  36122 APOL STP    34      54.659  32.576  14.218    0.00     3.26
+ATOM  30375 APOL STP    34      55.058  32.018  16.174    0.00     3.09
+ATOM  30375 APOL STP    34      55.130  31.808  16.079    0.00     3.07
+ATOM  36127 APOL STP    34      54.624  33.306  16.125    0.00     3.45
+ATOM  36121 APOL STP    34      54.906  32.500  14.901    0.00     3.23
+ATOM  36122 APOL STP    34      54.663  32.578  14.355    0.00     3.26
+ATOM  36127 APOL STP    34      54.428  32.797  14.131    0.00     3.28
+ATOM  36127 APOL STP    34      54.412  32.816  14.197    0.00     3.28
+ATOM  36127  POL STP    34      54.053  34.600  16.466    0.00     3.75
+ATOM  23009  POL STP    34      54.801  37.230  16.853    0.00     3.73
+ATOM  30363 APOL STP    34      54.710  37.280  17.050    0.00     3.58
+ATOM  36127  POL STP    34      55.301  36.888  16.792    0.00     3.74
+ATOM  30361  POL STP    34      54.673  37.659  16.796    0.00     3.77
+ATOM  23009  POL STP    34      54.086  38.423  16.523    0.00     3.79
+ATOM  23009  POL STP    34      53.574  37.796  16.270    0.00     3.34
+ATOM  30361  POL STP    34      54.268  38.386  16.609    0.00     3.85
+ATOM  30361  POL STP    34      54.573  38.519  16.640    0.00     3.96
+ATOM  36127 APOL STP    34      58.828  37.727  16.895    0.00     4.39
+TER
+END

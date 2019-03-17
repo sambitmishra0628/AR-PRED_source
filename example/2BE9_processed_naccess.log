@@ -1,0 +1,461 @@
+ ACCALL - Accessibility calculations
+ MAX RESIDUES     5000
+ MAX ATOMS/RES     100
+ PDB FILE INPUT 2BE9_processed.pdb
+ PROBE SIZE       1.40
+ Z-SLICE WIDTH   0.050
+ VDW RADII FILE vdw.radii
+ EXCL HETATOMS
+ EXCL HYDROGENS
+ EXCL WATERS
+ READVDW  32 residues input
+ NON-STANDARD atom.|HNCA| in residue> MET B  11 
+ GUESSED vdw of HNCA in MET B  11  =  1.60
+ NON-STANDARD atom.|HG11| in residue> VAL B  12 
+ GUESSED vdw of HG11 in VAL B  12  =  1.80
+ NON-STANDARD atom.|HG12| in residue> VAL B  12 
+ GUESSED vdw of HG12 in VAL B  12  =  1.80
+ NON-STANDARD atom.|HG13| in residue> VAL B  12 
+ GUESSED vdw of HG13 in VAL B  12  =  1.80
+ NON-STANDARD atom.|HG21| in residue> VAL B  12 
+ GUESSED vdw of HG21 in VAL B  12  =  1.80
+ NON-STANDARD atom.|HG22| in residue> VAL B  12 
+ GUESSED vdw of HG22 in VAL B  12  =  1.80
+ NON-STANDARD atom.|HG23| in residue> VAL B  12 
+ GUESSED vdw of HG23 in VAL B  12  =  1.80
+ NON-STANDARD atom.|HG12| in residue> ILE B  15 
+ GUESSED vdw of HG12 in ILE B  15  =  1.80
+ NON-STANDARD atom.|HG13| in residue> ILE B  15 
+ GUESSED vdw of HG13 in ILE B  15  =  1.80
+ NON-STANDARD atom.|HG21| in residue> ILE B  15 
+ GUESSED vdw of HG21 in ILE B  15  =  1.80
+ NON-STANDARD atom.|HG22| in residue> ILE B  15 
+ GUESSED vdw of HG22 in ILE B  15  =  1.80
+ NON-STANDARD atom.|HG23| in residue> ILE B  15 
+ GUESSED vdw of HG23 in ILE B  15  =  1.80
+ NON-STANDARD atom.|HG23| in residue> THR B  19 
+ GUESSED vdw of HG23 in THR B  19  =  1.80
+ NON-STANDARD atom.|HG21| in residue> THR B  19 
+ GUESSED vdw of HG21 in THR B  19  =  1.80
+ NON-STANDARD atom.|HG22| in residue> THR B  19 
+ GUESSED vdw of HG22 in THR B  19  =  1.80
+ NON-STANDARD atom.|HG11| in residue> VAL B  20 
+ GUESSED vdw of HG11 in VAL B  20  =  1.80
+ NON-STANDARD atom.|HG12| in residue> VAL B  20 
+ GUESSED vdw of HG12 in VAL B  20  =  1.80
+ NON-STANDARD atom.|HG13| in residue> VAL B  20 
+ GUESSED vdw of HG13 in VAL B  20  =  1.80
+ NON-STANDARD atom.|HG21| in residue> VAL B  20 
+ GUESSED vdw of HG21 in VAL B  20  =  1.80
+ NON-STANDARD atom.|HG22| in residue> VAL B  20 
+ GUESSED vdw of HG22 in VAL B  20  =  1.80
+ NON-STANDARD atom.|HG23| in residue> VAL B  20 
+ GUESSED vdw of HG23 in VAL B  20  =  1.80
+ NON-STANDARD atom.|HG12| in residue> ILE B  21 
+ GUESSED vdw of HG12 in ILE B  21  =  1.80
+ NON-STANDARD atom.|HG13| in residue> ILE B  21 
+ GUESSED vdw of HG13 in ILE B  21  =  1.80
+ NON-STANDARD atom.|HG21| in residue> ILE B  21 
+ GUESSED vdw of HG21 in ILE B  21  =  1.80
+ NON-STANDARD atom.|HG22| in residue> ILE B  21 
+ GUESSED vdw of HG22 in ILE B  21  =  1.80
+ NON-STANDARD atom.|HG23| in residue> ILE B  21 
+ GUESSED vdw of HG23 in ILE B  21  =  1.80
+ NON-STANDARD atom.|HG12| in residue> ILE B  24 
+ GUESSED vdw of HG12 in ILE B  24  =  1.80
+ NON-STANDARD atom.|HG13| in residue> ILE B  24 
+ GUESSED vdw of HG13 in ILE B  24  =  1.80
+ NON-STANDARD atom.|HG21| in residue> ILE B  24 
+ GUESSED vdw of HG21 in ILE B  24  =  1.80
+ NON-STANDARD atom.|HG22| in residue> ILE B  24 
+ GUESSED vdw of HG22 in ILE B  24  =  1.80
+ NON-STANDARD atom.|HG23| in residue> ILE B  24 
+ GUESSED vdw of HG23 in ILE B  24  =  1.80
+ NON-STANDARD atom.|HG11| in residue> VAL B  32 
+ GUESSED vdw of HG11 in VAL B  32  =  1.80
+ NON-STANDARD atom.|HG12| in residue> VAL B  32 
+ GUESSED vdw of HG12 in VAL B  32  =  1.80
+ NON-STANDARD atom.|HG13| in residue> VAL B  32 
+ GUESSED vdw of HG13 in VAL B  32  =  1.80
+ NON-STANDARD atom.|HG21| in residue> VAL B  32 
+ GUESSED vdw of HG21 in VAL B  32  =  1.80
+ NON-STANDARD atom.|HG22| in residue> VAL B  32 
+ GUESSED vdw of HG22 in VAL B  32  =  1.80
+ NON-STANDARD atom.|HG23| in residue> VAL B  32 
+ GUESSED vdw of HG23 in VAL B  32  =  1.80
+ NON-STANDARD atom.|HG11| in residue> VAL B  35 
+ GUESSED vdw of HG11 in VAL B  35  =  1.80
+ NON-STANDARD atom.|HG12| in residue> VAL B  35 
+ GUESSED vdw of HG12 in VAL B  35  =  1.80
+ NON-STANDARD atom.|HG13| in residue> VAL B  35 
+ GUESSED vdw of HG13 in VAL B  35  =  1.80
+ NON-STANDARD atom.|HG21| in residue> VAL B  35 
+ GUESSED vdw of HG21 in VAL B  35  =  1.80
+ NON-STANDARD atom.|HG22| in residue> VAL B  35 
+ GUESSED vdw of HG22 in VAL B  35  =  1.80
+ NON-STANDARD atom.|HG23| in residue> VAL B  35 
+ GUESSED vdw of HG23 in VAL B  35  =  1.80
+ NON-STANDARD atom.|HG12| in residue> ILE B  38 
+ GUESSED vdw of HG12 in ILE B  38  =  1.80
+ NON-STANDARD atom.|HG13| in residue> ILE B  38 
+ GUESSED vdw of HG13 in ILE B  38  =  1.80
+ NON-STANDARD atom.|HG21| in residue> ILE B  38 
+ GUESSED vdw of HG21 in ILE B  38  =  1.80
+ NON-STANDARD atom.|HG22| in residue> ILE B  38 
+ GUESSED vdw of HG22 in ILE B  38  =  1.80
+ NON-STANDARD atom.|HG23| in residue> ILE B  38 
+ GUESSED vdw of HG23 in ILE B  38  =  1.80
+ NON-STANDARD atom.|HNCA| in residue> GLU B  42 
+ GUESSED vdw of HNCA in GLU B  42  =  1.60
+ NON-STANDARD atom.|HG12| in residue> ILE B  46 
+ GUESSED vdw of HG12 in ILE B  46  =  1.80
+ NON-STANDARD atom.|HG13| in residue> ILE B  46 
+ GUESSED vdw of HG13 in ILE B  46  =  1.80
+ NON-STANDARD atom.|HG21| in residue> ILE B  46 
+ GUESSED vdw of HG21 in ILE B  46  =  1.80
+ NON-STANDARD atom.|HG22| in residue> ILE B  46 
+ GUESSED vdw of HG22 in ILE B  46  =  1.80
+ NON-STANDARD atom.|HG23| in residue> ILE B  46 
+ GUESSED vdw of HG23 in ILE B  46  =  1.80
+ NON-STANDARD atom.|HG11| in residue> VAL B  49 
+ GUESSED vdw of HG11 in VAL B  49  =  1.80
+ NON-STANDARD atom.|HG12| in residue> VAL B  49 
+ GUESSED vdw of HG12 in VAL B  49  =  1.80
+ NON-STANDARD atom.|HG13| in residue> VAL B  49 
+ GUESSED vdw of HG13 in VAL B  49  =  1.80
+ NON-STANDARD atom.|HG21| in residue> VAL B  49 
+ GUESSED vdw of HG21 in VAL B  49  =  1.80
+ NON-STANDARD atom.|HG22| in residue> VAL B  49 
+ GUESSED vdw of HG22 in VAL B  49  =  1.80
+ NON-STANDARD atom.|HG23| in residue> VAL B  49 
+ GUESSED vdw of HG23 in VAL B  49  =  1.80
+ NON-STANDARD atom.|HG12| in residue> ILE B  50 
+ GUESSED vdw of HG12 in ILE B  50  =  1.80
+ NON-STANDARD atom.|HG13| in residue> ILE B  50 
+ GUESSED vdw of HG13 in ILE B  50  =  1.80
+ NON-STANDARD atom.|HG21| in residue> ILE B  50 
+ GUESSED vdw of HG21 in ILE B  50  =  1.80
+ NON-STANDARD atom.|HG22| in residue> ILE B  50 
+ GUESSED vdw of HG22 in ILE B  50  =  1.80
+ NON-STANDARD atom.|HG23| in residue> ILE B  50 
+ GUESSED vdw of HG23 in ILE B  50  =  1.80
+ NON-STANDARD atom.|HG11| in residue> VAL B  52 
+ GUESSED vdw of HG11 in VAL B  52  =  1.80
+ NON-STANDARD atom.|HG12| in residue> VAL B  52 
+ GUESSED vdw of HG12 in VAL B  52  =  1.80
+ NON-STANDARD atom.|HG13| in residue> VAL B  52 
+ GUESSED vdw of HG13 in VAL B  52  =  1.80
+ NON-STANDARD atom.|HG21| in residue> VAL B  52 
+ GUESSED vdw of HG21 in VAL B  52  =  1.80
+ NON-STANDARD atom.|HG22| in residue> VAL B  52 
+ GUESSED vdw of HG22 in VAL B  52  =  1.80
+ NON-STANDARD atom.|HG23| in residue> VAL B  52 
+ GUESSED vdw of HG23 in VAL B  52  =  1.80
+ NON-STANDARD atom.|HG12| in residue> ILE B  62 
+ GUESSED vdw of HG12 in ILE B  62  =  1.80
+ NON-STANDARD atom.|HG13| in residue> ILE B  62 
+ GUESSED vdw of HG13 in ILE B  62  =  1.80
+ NON-STANDARD atom.|HG21| in residue> ILE B  62 
+ GUESSED vdw of HG21 in ILE B  62  =  1.80
+ NON-STANDARD atom.|HG22| in residue> ILE B  62 
+ GUESSED vdw of HG22 in ILE B  62  =  1.80
+ NON-STANDARD atom.|HG23| in residue> ILE B  62 
+ GUESSED vdw of HG23 in ILE B  62  =  1.80
+ NON-STANDARD atom.|HG11| in residue> VAL B  63 
+ GUESSED vdw of HG11 in VAL B  63  =  1.80
+ NON-STANDARD atom.|HG12| in residue> VAL B  63 
+ GUESSED vdw of HG12 in VAL B  63  =  1.80
+ NON-STANDARD atom.|HG13| in residue> VAL B  63 
+ GUESSED vdw of HG13 in VAL B  63  =  1.80
+ NON-STANDARD atom.|HG21| in residue> VAL B  63 
+ GUESSED vdw of HG21 in VAL B  63  =  1.80
+ NON-STANDARD atom.|HG22| in residue> VAL B  63 
+ GUESSED vdw of HG22 in VAL B  63  =  1.80
+ NON-STANDARD atom.|HG23| in residue> VAL B  63 
+ GUESSED vdw of HG23 in VAL B  63  =  1.80
+ NON-STANDARD atom.|HG12| in residue> ILE B  65 
+ GUESSED vdw of HG12 in ILE B  65  =  1.80
+ NON-STANDARD atom.|HG13| in residue> ILE B  65 
+ GUESSED vdw of HG13 in ILE B  65  =  1.80
+ NON-STANDARD atom.|HG21| in residue> ILE B  65 
+ GUESSED vdw of HG21 in ILE B  65  =  1.80
+ NON-STANDARD atom.|HG22| in residue> ILE B  65 
+ GUESSED vdw of HG22 in ILE B  65  =  1.80
+ NON-STANDARD atom.|HG23| in residue> ILE B  65 
+ GUESSED vdw of HG23 in ILE B  65  =  1.80
+ NON-STANDARD atom.|HG12| in residue> ILE B  70 
+ GUESSED vdw of HG12 in ILE B  70  =  1.80
+ NON-STANDARD atom.|HG13| in residue> ILE B  70 
+ GUESSED vdw of HG13 in ILE B  70  =  1.80
+ NON-STANDARD atom.|HG21| in residue> ILE B  70 
+ GUESSED vdw of HG21 in ILE B  70  =  1.80
+ NON-STANDARD atom.|HG22| in residue> ILE B  70 
+ GUESSED vdw of HG22 in ILE B  70  =  1.80
+ NON-STANDARD atom.|HG23| in residue> ILE B  70 
+ GUESSED vdw of HG23 in ILE B  70  =  1.80
+ NON-STANDARD atom.|HG23| in residue> THR B  73 
+ GUESSED vdw of HG23 in THR B  73  =  1.80
+ NON-STANDARD atom.|HG21| in residue> THR B  73 
+ GUESSED vdw of HG21 in THR B  73  =  1.80
+ NON-STANDARD atom.|HG22| in residue> THR B  73 
+ GUESSED vdw of HG22 in THR B  73  =  1.80
+ NON-STANDARD atom.|HG12| in residue> ILE B  78 
+ GUESSED vdw of HG12 in ILE B  78  =  1.80
+ NON-STANDARD atom.|HG13| in residue> ILE B  78 
+ GUESSED vdw of HG13 in ILE B  78  =  1.80
+ NON-STANDARD atom.|HG21| in residue> ILE B  78 
+ GUESSED vdw of HG21 in ILE B  78  =  1.80
+ NON-STANDARD atom.|HG22| in residue> ILE B  78 
+ GUESSED vdw of HG22 in ILE B  78  =  1.80
+ NON-STANDARD atom.|HG23| in residue> ILE B  78 
+ GUESSED vdw of HG23 in ILE B  78  =  1.80
+ NON-STANDARD atom.|HG23| in residue> THR B  79 
+ GUESSED vdw of HG23 in THR B  79  =  1.80
+ NON-STANDARD atom.|HG21| in residue> THR B  79 
+ GUESSED vdw of HG21 in THR B  79  =  1.80
+ NON-STANDARD atom.|HG22| in residue> THR B  79 
+ GUESSED vdw of HG22 in THR B  79  =  1.80
+ NON-STANDARD atom.|HG12| in residue> ILE B  81 
+ GUESSED vdw of HG12 in ILE B  81  =  1.80
+ NON-STANDARD atom.|HG13| in residue> ILE B  81 
+ GUESSED vdw of HG13 in ILE B  81  =  1.80
+ NON-STANDARD atom.|HG21| in residue> ILE B  81 
+ GUESSED vdw of HG21 in ILE B  81  =  1.80
+ NON-STANDARD atom.|HG22| in residue> ILE B  81 
+ GUESSED vdw of HG22 in ILE B  81  =  1.80
+ NON-STANDARD atom.|HG23| in residue> ILE B  81 
+ GUESSED vdw of HG23 in ILE B  81  =  1.80
+ NON-STANDARD atom.|HG23| in residue> THR B  84 
+ GUESSED vdw of HG23 in THR B  84  =  1.80
+ NON-STANDARD atom.|HG21| in residue> THR B  84 
+ GUESSED vdw of HG21 in THR B  84  =  1.80
+ NON-STANDARD atom.|HG22| in residue> THR B  84 
+ GUESSED vdw of HG22 in THR B  84  =  1.80
+ NON-STANDARD atom.|HG23| in residue> THR B  86 
+ GUESSED vdw of HG23 in THR B  86  =  1.80
+ NON-STANDARD atom.|HG21| in residue> THR B  86 
+ GUESSED vdw of HG21 in THR B  86  =  1.80
+ NON-STANDARD atom.|HG22| in residue> THR B  86 
+ GUESSED vdw of HG22 in THR B  86  =  1.80
+ NON-STANDARD atom.|HG12| in residue> ILE B  87 
+ GUESSED vdw of HG12 in ILE B  87  =  1.80
+ NON-STANDARD atom.|HG13| in residue> ILE B  87 
+ GUESSED vdw of HG13 in ILE B  87  =  1.80
+ NON-STANDARD atom.|HG21| in residue> ILE B  87 
+ GUESSED vdw of HG21 in ILE B  87  =  1.80
+ NON-STANDARD atom.|HG22| in residue> ILE B  87 
+ GUESSED vdw of HG22 in ILE B  87  =  1.80
+ NON-STANDARD atom.|HG23| in residue> ILE B  87 
+ GUESSED vdw of HG23 in ILE B  87  =  1.80
+ NON-STANDARD atom.|HG12| in residue> ILE B  89 
+ GUESSED vdw of HG12 in ILE B  89  =  1.80
+ NON-STANDARD atom.|HG13| in residue> ILE B  89 
+ GUESSED vdw of HG13 in ILE B  89  =  1.80
+ NON-STANDARD atom.|HG21| in residue> ILE B  89 
+ GUESSED vdw of HG21 in ILE B  89  =  1.80
+ NON-STANDARD atom.|HG22| in residue> ILE B  89 
+ GUESSED vdw of HG22 in ILE B  89  =  1.80
+ NON-STANDARD atom.|HG23| in residue> ILE B  89 
+ GUESSED vdw of HG23 in ILE B  89  =  1.80
+ NON-STANDARD atom.|HG11| in residue> VAL B  90 
+ GUESSED vdw of HG11 in VAL B  90  =  1.80
+ NON-STANDARD atom.|HG12| in residue> VAL B  90 
+ GUESSED vdw of HG12 in VAL B  90  =  1.80
+ NON-STANDARD atom.|HG13| in residue> VAL B  90 
+ GUESSED vdw of HG13 in VAL B  90  =  1.80
+ NON-STANDARD atom.|HG21| in residue> VAL B  90 
+ GUESSED vdw of HG21 in VAL B  90  =  1.80
+ NON-STANDARD atom.|HG22| in residue> VAL B  90 
+ GUESSED vdw of HG22 in VAL B  90  =  1.80
+ NON-STANDARD atom.|HG23| in residue> VAL B  90 
+ GUESSED vdw of HG23 in VAL B  90  =  1.80
+ NON-STANDARD atom.|HG11| in residue> VAL B  95 
+ GUESSED vdw of HG11 in VAL B  95  =  1.80
+ NON-STANDARD atom.|HG12| in residue> VAL B  95 
+ GUESSED vdw of HG12 in VAL B  95  =  1.80
+ NON-STANDARD atom.|HG13| in residue> VAL B  95 
+ GUESSED vdw of HG13 in VAL B  95  =  1.80
+ NON-STANDARD atom.|HG21| in residue> VAL B  95 
+ GUESSED vdw of HG21 in VAL B  95  =  1.80
+ NON-STANDARD atom.|HG22| in residue> VAL B  95 
+ GUESSED vdw of HG22 in VAL B  95  =  1.80
+ NON-STANDARD atom.|HG23| in residue> VAL B  95 
+ GUESSED vdw of HG23 in VAL B  95  =  1.80
+ NON-STANDARD atom.|HG11| in residue> VAL B  96 
+ GUESSED vdw of HG11 in VAL B  96  =  1.80
+ NON-STANDARD atom.|HG12| in residue> VAL B  96 
+ GUESSED vdw of HG12 in VAL B  96  =  1.80
+ NON-STANDARD atom.|HG13| in residue> VAL B  96 
+ GUESSED vdw of HG13 in VAL B  96  =  1.80
+ NON-STANDARD atom.|HG21| in residue> VAL B  96 
+ GUESSED vdw of HG21 in VAL B  96  =  1.80
+ NON-STANDARD atom.|HG22| in residue> VAL B  96 
+ GUESSED vdw of HG22 in VAL B  96  =  1.80
+ NON-STANDARD atom.|HG23| in residue> VAL B  96 
+ GUESSED vdw of HG23 in VAL B  96  =  1.80
+ NON-STANDARD atom.|HG23| in residue> THR B  99 
+ GUESSED vdw of HG23 in THR B  99  =  1.80
+ NON-STANDARD atom.|HG21| in residue> THR B  99 
+ GUESSED vdw of HG21 in THR B  99  =  1.80
+ NON-STANDARD atom.|HG22| in residue> THR B  99 
+ GUESSED vdw of HG22 in THR B  99  =  1.80
+ NON-STANDARD atom.|HG11| in residue> VAL B 103 
+ GUESSED vdw of HG11 in VAL B 103  =  1.80
+ NON-STANDARD atom.|HG12| in residue> VAL B 103 
+ GUESSED vdw of HG12 in VAL B 103  =  1.80
+ NON-STANDARD atom.|HG13| in residue> VAL B 103 
+ GUESSED vdw of HG13 in VAL B 103  =  1.80
+ NON-STANDARD atom.|HG21| in residue> VAL B 103 
+ GUESSED vdw of HG21 in VAL B 103  =  1.80
+ NON-STANDARD atom.|HG22| in residue> VAL B 103 
+ GUESSED vdw of HG22 in VAL B 103  =  1.80
+ NON-STANDARD atom.|HG23| in residue> VAL B 103 
+ GUESSED vdw of HG23 in VAL B 103  =  1.80
+ NON-STANDARD atom.|HG11| in residue> VAL B 106 
+ GUESSED vdw of HG11 in VAL B 106  =  1.80
+ NON-STANDARD atom.|HG12| in residue> VAL B 106 
+ GUESSED vdw of HG12 in VAL B 106  =  1.80
+ NON-STANDARD atom.|HG13| in residue> VAL B 106 
+ GUESSED vdw of HG13 in VAL B 106  =  1.80
+ NON-STANDARD atom.|HG21| in residue> VAL B 106 
+ GUESSED vdw of HG21 in VAL B 106  =  1.80
+ NON-STANDARD atom.|HG22| in residue> VAL B 106 
+ GUESSED vdw of HG22 in VAL B 106  =  1.80
+ NON-STANDARD atom.|HG23| in residue> VAL B 106 
+ GUESSED vdw of HG23 in VAL B 106  =  1.80
+ NON-STANDARD atom.|HG11| in residue> VAL B 107 
+ GUESSED vdw of HG11 in VAL B 107  =  1.80
+ NON-STANDARD atom.|HG12| in residue> VAL B 107 
+ GUESSED vdw of HG12 in VAL B 107  =  1.80
+ NON-STANDARD atom.|HG13| in residue> VAL B 107 
+ GUESSED vdw of HG13 in VAL B 107  =  1.80
+ NON-STANDARD atom.|HG21| in residue> VAL B 107 
+ GUESSED vdw of HG21 in VAL B 107  =  1.80
+ NON-STANDARD atom.|HG22| in residue> VAL B 107 
+ GUESSED vdw of HG22 in VAL B 107  =  1.80
+ NON-STANDARD atom.|HG23| in residue> VAL B 107 
+ GUESSED vdw of HG23 in VAL B 107  =  1.80
+ NON-STANDARD atom.|HG12| in residue> ILE B 110 
+ GUESSED vdw of HG12 in ILE B 110  =  1.80
+ NON-STANDARD atom.|HG13| in residue> ILE B 110 
+ GUESSED vdw of HG13 in ILE B 110  =  1.80
+ NON-STANDARD atom.|HG21| in residue> ILE B 110 
+ GUESSED vdw of HG21 in ILE B 110  =  1.80
+ NON-STANDARD atom.|HG22| in residue> ILE B 110 
+ GUESSED vdw of HG22 in ILE B 110  =  1.80
+ NON-STANDARD atom.|HG23| in residue> ILE B 110 
+ GUESSED vdw of HG23 in ILE B 110  =  1.80
+ NON-STANDARD atom.|HG12| in residue> ILE B 119 
+ GUESSED vdw of HG12 in ILE B 119  =  1.80
+ NON-STANDARD atom.|HG13| in residue> ILE B 119 
+ GUESSED vdw of HG13 in ILE B 119  =  1.80
+ NON-STANDARD atom.|HG21| in residue> ILE B 119 
+ GUESSED vdw of HG21 in ILE B 119  =  1.80
+ NON-STANDARD atom.|HG22| in residue> ILE B 119 
+ GUESSED vdw of HG22 in ILE B 119  =  1.80
+ NON-STANDARD atom.|HG23| in residue> ILE B 119 
+ GUESSED vdw of HG23 in ILE B 119  =  1.80
+ NON-STANDARD atom.|HG23| in residue> THR B 120 
+ GUESSED vdw of HG23 in THR B 120  =  1.80
+ NON-STANDARD atom.|HG21| in residue> THR B 120 
+ GUESSED vdw of HG21 in THR B 120  =  1.80
+ NON-STANDARD atom.|HG22| in residue> THR B 120 
+ GUESSED vdw of HG22 in THR B 120  =  1.80
+ NON-STANDARD atom.|HG11| in residue> VAL B 124 
+ GUESSED vdw of HG11 in VAL B 124  =  1.80
+ NON-STANDARD atom.|HG12| in residue> VAL B 124 
+ GUESSED vdw of HG12 in VAL B 124  =  1.80
+ NON-STANDARD atom.|HG13| in residue> VAL B 124 
+ GUESSED vdw of HG13 in VAL B 124  =  1.80
+ NON-STANDARD atom.|HG21| in residue> VAL B 124 
+ GUESSED vdw of HG21 in VAL B 124  =  1.80
+ NON-STANDARD atom.|HG22| in residue> VAL B 124 
+ GUESSED vdw of HG22 in VAL B 124  =  1.80
+ NON-STANDARD atom.|HG23| in residue> VAL B 124 
+ GUESSED vdw of HG23 in VAL B 124  =  1.80
+ NON-STANDARD atom.|HG12| in residue> ILE B 127 
+ GUESSED vdw of HG12 in ILE B 127  =  1.80
+ NON-STANDARD atom.|HG13| in residue> ILE B 127 
+ GUESSED vdw of HG13 in ILE B 127  =  1.80
+ NON-STANDARD atom.|HG21| in residue> ILE B 127 
+ GUESSED vdw of HG21 in ILE B 127  =  1.80
+ NON-STANDARD atom.|HG22| in residue> ILE B 127 
+ GUESSED vdw of HG22 in ILE B 127  =  1.80
+ NON-STANDARD atom.|HG23| in residue> ILE B 127 
+ GUESSED vdw of HG23 in ILE B 127  =  1.80
+ NON-STANDARD atom.|HG23| in residue> THR B 129 
+ GUESSED vdw of HG23 in THR B 129  =  1.80
+ NON-STANDARD atom.|HG21| in residue> THR B 129 
+ GUESSED vdw of HG21 in THR B 129  =  1.80
+ NON-STANDARD atom.|HG22| in residue> THR B 129 
+ GUESSED vdw of HG22 in THR B 129  =  1.80
+ NON-STANDARD atom.|HG23| in residue> THR B 132 
+ GUESSED vdw of HG23 in THR B 132  =  1.80
+ NON-STANDARD atom.|HG21| in residue> THR B 132 
+ GUESSED vdw of HG21 in THR B 132  =  1.80
+ NON-STANDARD atom.|HG22| in residue> THR B 132 
+ GUESSED vdw of HG22 in THR B 132  =  1.80
+ NON-STANDARD atom.|HG23| in residue> THR B 134 
+ GUESSED vdw of HG23 in THR B 134  =  1.80
+ NON-STANDARD atom.|HG21| in residue> THR B 134 
+ GUESSED vdw of HG21 in THR B 134  =  1.80
+ NON-STANDARD atom.|HG22| in residue> THR B 134 
+ GUESSED vdw of HG22 in THR B 134  =  1.80
+ NON-STANDARD atom.|HG23| in residue> THR B 147 
+ GUESSED vdw of HG23 in THR B 147  =  1.80
+ NON-STANDARD atom.|HG21| in residue> THR B 147 
+ GUESSED vdw of HG21 in THR B 147  =  1.80
+ NON-STANDARD atom.|HG22| in residue> THR B 147 
+ GUESSED vdw of HG22 in THR B 147  =  1.80
+ NON-STANDARD atom.|HG12| in residue> ILE B 148 
+ GUESSED vdw of HG12 in ILE B 148  =  1.80
+ NON-STANDARD atom.|HG13| in residue> ILE B 148 
+ GUESSED vdw of HG13 in ILE B 148  =  1.80
+ NON-STANDARD atom.|HG21| in residue> ILE B 148 
+ GUESSED vdw of HG21 in ILE B 148  =  1.80
+ NON-STANDARD atom.|HG22| in residue> ILE B 148 
+ GUESSED vdw of HG22 in ILE B 148  =  1.80
+ NON-STANDARD atom.|HG23| in residue> ILE B 148 
+ GUESSED vdw of HG23 in ILE B 148  =  1.80
+ NON-STANDARD atom.|HG12| in residue> ILE B 149 
+ GUESSED vdw of HG12 in ILE B 149  =  1.80
+ NON-STANDARD atom.|HG13| in residue> ILE B 149 
+ GUESSED vdw of HG13 in ILE B 149  =  1.80
+ NON-STANDARD atom.|HG21| in residue> ILE B 149 
+ GUESSED vdw of HG21 in ILE B 149  =  1.80
+ NON-STANDARD atom.|HG22| in residue> ILE B 149 
+ GUESSED vdw of HG22 in ILE B 149  =  1.80
+ NON-STANDARD atom.|HG23| in residue> ILE B 149 
+ GUESSED vdw of HG23 in ILE B 149  =  1.80
+ NON-STANDARD atom.|HG12| in residue> ILE B 154 
+ GUESSED vdw of HG12 in ILE B 154  =  1.80
+ NON-STANDARD atom.|HG13| in residue> ILE B 154 
+ GUESSED vdw of HG13 in ILE B 154  =  1.80
+ NON-STANDARD atom.|HG21| in residue> ILE B 154 
+ GUESSED vdw of HG21 in ILE B 154  =  1.80
+ NON-STANDARD atom.|HG22| in residue> ILE B 154 
+ GUESSED vdw of HG22 in ILE B 154  =  1.80
+ NON-STANDARD atom.|HG23| in residue> ILE B 154 
+ GUESSED vdw of HG23 in ILE B 154  =  1.80
+ NON-STANDARD atom.|HE22| in residue> GLN B 157 
+ GUESSED vdw of HE22 in GLN B 157  =  1.80
+ NON-STANDARD atom.|HE21| in residue> GLN B 157 
+ GUESSED vdw of HE21 in GLN B 157  =  1.80
+ NON-STANDARD atom.|HG12| in residue> ILE B 158 
+ GUESSED vdw of HG12 in ILE B 158  =  1.80
+ NON-STANDARD atom.|HG13| in residue> ILE B 158 
+ GUESSED vdw of HG13 in ILE B 158  =  1.80
+ NON-STANDARD atom.|HG21| in residue> ILE B 158 
+ GUESSED vdw of HG21 in ILE B 158  =  1.80
+ NON-STANDARD atom.|HG22| in residue> ILE B 158 
+ GUESSED vdw of HG22 in ILE B 158  =  1.80
+ NON-STANDARD atom.|HG23| in residue> ILE B 158 
+ GUESSED vdw of HG23 in ILE B 158  =  1.80
+ ADDED VDW RADII
+ CHAINS       1
+ RESIDUES   148
+ ATOMS     1364
+ SOLVA: PROGRAM ENDS CORRECTLY
+ CALCULATED ATOMIC ACCESSIBILITES
+ RELATIVE (STANDARD) ACCESSIBILITIES READFOR  20 AMINO ACIDS
+ SUMMED ACCESSIBILITIES OVER RESIDUES
