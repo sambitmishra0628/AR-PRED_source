@@ -24,14 +24,23 @@ Download the AR-PRED source code and unzip to a local directory on your Linux wo
 Open the .bashrc file in your home directory using any text editor and add the following lines to the file after excluding the quotes and any special instructions given in parenthesis.
 
 `export ARPRED_HOME='path to AR-PRED_source directory'`
+
 `export MATLAB_PATH='path to matlab executable' (the binary/executable matlab file must be included in the path)`
+
 `export PATH=$PATH:'path to BLAST 2.7 bin directory`
+
 `export BLASTDB='path to BLAST nr database'`
+
 `export NACESS_PATH='path to NACCESS executable/binary'`
+
 `export PATH=$PATH:'path to naccess binary' (the binary file should be named as naccess)`
+
 `export PATH=$PATH:'path to rate4site binary' (the binary executable should be named as rate4site)`
+
 `export PATH=$PATH:'path to cdhit binary' (the default cdhit binary is named as cd-hit and it should be left as the same)`
+
 `export PATH=$PATH:'path to fpocket binary' (the default binary name is fpocket and it should be left as the same)`
+
 `export PATH=$PATH:'path to dssp' (the binary should be named as dssp)`
 
 
