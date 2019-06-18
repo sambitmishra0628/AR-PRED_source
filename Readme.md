@@ -1,10 +1,8 @@
-**Instructions for Running AR-PRED (Active and Regulatory site PREDiction)**
+## Instructions for Running AR-PRED (Active and Regulatory site PREDiction)
 
 The code for AR-PRED is written in Perl and MatLab and tested on a 64-bit Linux machine (RHEL, release 6.8). It is designed to be run on a Linux machine of similar or higher OS configuration. A set of specific instructions is provided below to execute AR-PRED. 
 
-
-**A. Software**
-
+### A. Software
 Download and install the following software
 1.	Perl version 5 (https://www.activestate.com/products/activeperl/downloads/)
 2.	MatLab 2017 or later (https://www.mathworks.com/downloads/)
@@ -17,10 +15,7 @@ Download and install the following software
 9.	Clustal Omega (http://www.clustal.org/omega/). Rename the executable to clustalomega.
 10.	Download and unzip the MAVEN source code (MAVEN_source.v121.zip)  from https://sourceforge.net/projects/maven/files/Release%201.21/. Store all the source code files in a directory named ‘MAVEN’ (rename the default directory after unzipping from MAVEN_source.v121 to MAVEN).
 
-
-
-**B. Environment variables**
-
+### B. Environment variables
 Download the AR-PRED source code and unzip to a local directory on your Linux work station. Make sure all the AR-PRED code is under 	the directory named ‘AR-PRED_source’ (by default when you unzip, it should be unzipped into a folder with that name). Copy the MAVEN 	directory to the AR-PRED_source directory. Then set the required environment variables and paths using the following steps.
 
 Open the .bashrc file in your home directory using any text editor and add the following lines to the file after excluding the quotes and any special instructions given in parenthesis.
@@ -45,10 +40,7 @@ Open the .bashrc file in your home directory using any text editor and add the f
 
 `export PATH=$PATH:'path to dssp' (the binary should be named as dssp)`
 
-
-
-**C. Compiling MAVEN \*.c codes with mex**
-
+### C. Compiling MAVEN \*.c codes with mex
 We will need to compile the MAVEN \*.c codes for generating Hessian and adjacency matrices before running AR-PRED. Here are the instructions.
 
 	a. Start Matlab
@@ -56,10 +48,7 @@ We will need to compile the MAVEN \*.c codes for generating Hessian and adjacenc
 	c. To compile the \*.c codes, we will need to set up mex (if it is not already installed). Type “doc mex” on the matlab command line for instructions on how to set up mex
 	d. Compile the c codes with the “mex adjacency.c” and “mex ANMHess.c”
 
-
-
-**D. Running AR-PRED**
-
+### D. Running AR-PRED
 AR-PRED requires an all-atom PDB file as its input. The user should make sure that non-standard or modified amino acids (other than the 20 standard amino acids) are be replaced by their standard names in the PDB file before executing AR-PRED. Otherwise, AR-PRED will report error.
 
 AR-PRED has separate prediction models for predicting active site and allosteric site residues in a given protein chain. Following is the generic command.
@@ -88,10 +77,7 @@ For predicting regulatory or allosteric site residues however, AR-PRED requires 
 
 Tip: When running the master script from the output directory, make sure to include the path alongwith the dir name in the `outputdir` argument.
 
-
-
-**E. AR-PRED output**
-
+### E. AR-PRED output
 AR-PRED outputs its predictions into a .csv file: allostericsite_predictions.csv and activesite_predictions.csv for the allosteric and active site residues, respectively. Each file has two columns: column 1 lists the residue IDs in the PDB file and column 2 lists the weighted probability scores corresponding to each residue ID. Residues having higher scores are more likely to be active or allosteric site residues, depending upon the type of prediction made. 
 
 Note: Depending on the database size and the number of sequences used for calculation of residue conservation scores and due to the random sampling of perturbation points for calculations of dynamic flexibility and perturbation response, there may be minor inconsistency in the residue ranking and scoring by AR-PRED in independent runs of the same protein. However, we have usually observed that the ranking of the top 50 highly probably active or allosteric site residues usually remain the same. To obtain more consistent results, it is advisable to get the average predictions from independent runs of AR-PRED.
