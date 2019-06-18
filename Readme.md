@@ -51,7 +51,7 @@ We will need to compile the MAVEN \*.c codes for generating Hessian and adjacenc
 ### D. Running AR-PRED
 AR-PRED requires an all-atom PDB file as its input. The user should make sure that non-standard or modified amino acids (other than the 20 standard amino acids) are be replaced by their standard names in the PDB file before executing AR-PRED. Otherwise, AR-PRED will report error.
 
-AR-PRED has separate prediction models for predicting active site and allosteric site residues in a given protein chain. Following is the generic command.
+AR-PRED has separate prediction models for active site and allosteric site residues in a given protein chain. Following is the generic command.
 
 	`$ARPRED_HOME/master_script.pl pdbfile  chain outputdir  pred_type activesite_file`
 	
