@@ -19,7 +19,7 @@ Download and install the following software
 
 **B. Environment variables**
 
-Download the AR-PRED source code and unzip to a local directory on your Linux work station. Make sure all the AR-PRED code is under 	the directory named ‘AR-PRED_source’ (by default when you unzip, it should be unzipped into a folder with that name. Copy the MAVEN 	directory to the AR-PRED_source directory. Then set the required environment variables and paths using the following steps.
+Download the AR-PRED source code and unzip to a local directory on your Linux work station. Make sure all the AR-PRED code is under 	the directory named ‘AR-PRED_source’ (by default when you unzip, it should be unzipped into a folder with that name). Copy the MAVEN 	directory to the AR-PRED_source directory. Then set the required environment variables and paths using the following steps.
 
 Open the .bashrc file in your home directory using any text editor and add the following lines to the file after excluding the quotes and any special instructions given in parenthesis.
 
