@@ -2,6 +2,7 @@
 
 The code for AR-PRED is written in Perl and MatLab and tested on a 64-bit Linux machine (RHEL, release 6.8). It is designed to be run on a Linux machine of similar or higher OS configuration. A set of specific instructions is provided below to execute AR-PRED. 
 
+
 **A. Software**
 
 Download and install the following software
@@ -15,6 +16,7 @@ Download and install the following software
 8.	Rate4Site (https://m.tau.ac.il/~itaymay/cp/rate4site.html)
 9.	Clustal Omega (http://www.clustal.org/omega/). Rename the executable to clustalomega.
 10.	Download and unzip the MAVEN source code (MAVEN_source.v121.zip)  from https://sourceforge.net/projects/maven/files/Release%201.21/. Store all the source code files in a directory named ‘MAVEN’ (rename the default directory after unzipping from MAVEN_source.v121 to MAVEN).
+
 
 
 **B. Environment variables**
@@ -44,6 +46,7 @@ Open the .bashrc file in your home directory using any text editor and add the f
 `export PATH=$PATH:'path to dssp' (the binary should be named as dssp)`
 
 
+
 **C. Compiling MAVEN \*.c codes with mex**
 
 We will need to compile the MAVEN \*.c codes for generating Hessian and adjacency matrices before running AR-PRED. Here are the instructions.
@@ -52,6 +55,7 @@ We will need to compile the MAVEN \*.c codes for generating Hessian and adjacenc
 	b. Within Matlab, navigate to the MAVEN directory inside the ARPRED_HOME path (as set above)
 	c. To compile the \*.c codes, we will need to set up mex (if it is not already installed). Type “doc mex” on the matlab command line for instructions on how to set up mex
 	d. Compile the c codes with the “mex adjacency.c” and “mex ANMHess.c”
+
 
 
 **D. Running AR-PRED**
@@ -83,6 +87,8 @@ For predicting regulatory or allosteric site residues however, AR-PRED requires 
 `$ARPRED_HOME/master_script.pl pdbfile  chain outputdir  2 activesite_res.csv`
 
 Tip: When running the master script from the output directory, make sure to include the path alongwith the dir name in the `outputdir` argument.
+
+
 
 **E. AR-PRED output**
 
