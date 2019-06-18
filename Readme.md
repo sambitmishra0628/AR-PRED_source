@@ -47,10 +47,11 @@ Open the .bashrc file in your home directory using any text editor and add the f
 **C. Compiling MAVEN \*.c codes with mex**
 
 We will need to compile the MAVEN \*.c codes for generating Hessian and adjacency matrices before running AR-PRED. Here are the instructions.
-a.	Start Matlab
-b.	Within Matlab, navigate to the MAVEN directory inside the ARPRED_HOME path (as set above)
-c.	To compile the \*.c codes, we will need to set up mex (if it is not already installed). Type “doc mex” on the matlab command line for instructions on how to set up mex
-d.	Compile the c codes with the “mex adjacency.c” and “mex ANMHess.c”
+
+	a. Start Matlab
+	b. Within Matlab, navigate to the MAVEN directory inside the ARPRED_HOME path (as set above)
+	c. To compile the \*.c codes, we will need to set up mex (if it is not already installed). Type “doc mex” on the matlab command line for instructions on how to set up mex
+	d. Compile the c codes with the “mex adjacency.c” and “mex ANMHess.c”
 
 
 **D. Running AR-PRED**
