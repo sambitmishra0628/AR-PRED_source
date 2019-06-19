@@ -34,9 +34,9 @@ Open the .bashrc file in your home directory using any text editor and add the f
 
 `export PATH=$PATH:'path to rate4site binary' (the binary executable should be named as rate4site)`
 
-`export PATH=$PATH:'path to cdhit binary' (the default cdhit binary is named as cd-hit and it should be left as the same)`
+`export PATH=$PATH:'path to cd-hit binary' (the default cd-hit binary is named as cd-hit and it should be left unchanged)`
 
-`export PATH=$PATH:'path to fpocket binary' (the default binary name is fpocket and it should be left as the same)`
+`export PATH=$PATH:'path to fpocket binary' (the default binary name is fpocket and it should be left unchanged)`
 
 `export PATH=$PATH:'path to dssp' (the binary should be named as dssp)`
 
