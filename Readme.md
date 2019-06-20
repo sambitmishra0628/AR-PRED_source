@@ -1,6 +1,6 @@
 ## Instructions for Running AR-PRED (Active and Regulatory site PREDiction)
 
-The code for AR-PRED is written in Perl and MatLab and tested on a 64-bit Linux machine (RHEL, release 6.8). It is designed to be run on a Linux machine of similar or higher OS configuration. A set of specific instructions is provided below to execute AR-PRED. 
+The code for AR-PRED is written in Perl and MatLab and tested on a 64-bit Linux machine (RHEL, release 6.8). It is designed to be run on a Linux machine of similar or higher configuration. A set of specific instructions is provided below to execute AR-PRED. 
 
 ### A. Software
 Download and install the following software
