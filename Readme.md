@@ -67,7 +67,7 @@ AR-PRED has separate prediction models for active site and allosteric site resid
 	The residue IDs must be separated by commas and must correspond to the residue IDs in the PDB file. The file name must include
 	the path to the file.
 
-For predicting active site residues, use the following command.
+For predicting active site residues change directory into the `outputdir` (`cd outputdir`) and run the following command.
 
 	`$ARPRED_HOME/master_script.pl pdbfile  chain outputdir  1`
 
