@@ -38,8 +38,8 @@ if ($pred_type != 1 && $pred_type != 2) {
 # script are as follows.
 # 1. ARPRED_HOME
 # 2. MATLAB_PATH
-unless ($ENV{ARPRED_HOME} && $ENV{MATLAB_PATH} && $ENV{BLASTDB} && $ENV{NACESS_PATH}) {
-	die "The environment variables ARPRED_HOME,MATLAB_PATH,BLASTDB and NACESS_PATH must be set before running this code. Please refer to the instructions in \'Running AR-PRED.txt\'!";
+unless ($ENV{ARPRED_HOME} && $ENV{MATLAB_PATH} && $ENV{BLASTDB} && $ENV{NACCESS_PATH}) {
+	die "The environment variables ARPRED_HOME,MATLAB_PATH,BLASTDB and NACCESS_PATH must be set before running this code. Please refer to the instructions in \'Running AR-PRED.txt\'!";
 }
 
 $outputdir =~ s/\/$//g; # remove any forward slashes that user might have accidentally given
