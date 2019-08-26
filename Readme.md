@@ -1,4 +1,10 @@
-## Instructions for Running AR-PRED (Active and Regulatory site PREDiction)
+## Active and Regulatory site PREDiction (AR-PRED)
+AR-PRED (Active and Regulatory site PREDiction) is a prediction method to detect putative regulatory (allosteric) and active site residues in a given protein. The AR-PRED package contains separate models for predicting these two residue types: active and allosteric. Based on their requirement, the user can use either or both models to make predictions for a given protein.
+
+## Workflow
+![ar-pred-approach](https://user-images.githubusercontent.com/6353495/63666447-9d0a4680-c79d-11e9-9012-b51d811d32f7.png)
+
+## Instructions for Running AR-PRED
 
 The code for AR-PRED is written in Perl and MatLab and tested on a 64-bit Linux machine (RHEL, release 6.8). It is designed to be run on a Linux machine of similar or higher configuration. A set of specific instructions is provided below to execute AR-PRED. 
 
