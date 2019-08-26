@@ -1,5 +1,5 @@
 ## Active and Regulatory site PREDiction (AR-PRED)
-AR-PRED (Active and Regulatory site PREDiction) is a prediction method to detect putative regulatory (allosteric) and active site residues in a given protein. The AR-PRED package contains separate models for predicting these two residue types: active and allosteric. Based on their requirement, the user can use either or both models to make predictions for a given protein.
+AR-PRED is a prediction method to detect putative regulatory (allosteric) and active site residues in a given protein. The AR-PRED package contains separate models for predicting these two residue types: active and allosteric. Based on their requirement, the user can use either or both models to make predictions for a given protein.
 
 ## Workflow
 ![ar-pred-approach](https://user-images.githubusercontent.com/6353495/63666447-9d0a4680-c79d-11e9-9012-b51d811d32f7.png)
@@ -88,6 +88,4 @@ AR-PRED outputs its predictions into a .csv file: allostericsite_predictions.csv
 
 Note: Depending on the database size and the number of sequences used for calculation of residue conservation scores and due to the random sampling of perturbation points for calculations of dynamic flexibility and perturbation response, there may be minor inconsistency in the residue ranking and scoring by AR-PRED in independent runs of the same protein. However, we have usually observed that the ranking of the top 50 highly probably active or allosteric site residues usually remain the same. To obtain more consistent results, it is advisable to get the average predictions from independent runs of AR-PRED.
 
-In case of any questions or suggestions, please feel free to contact Sambit Mishra (skmishra@iastate.edu).
-	
-
+In case of any questions or suggestions, please feel free to contact Sambit Mishra (skmishra@iastate.edu). Please include the following citation (Mishra, S. K., Kandoi, G., & Jernigan, R. L. (2019). Coupling Dynamics and Evolutionary Information with Structure to Identify Protein Regulatory and Functional Binding Sites. Proteins: Structure, Function, and Bioinformatics.) if you use AR-PRED for your work.
