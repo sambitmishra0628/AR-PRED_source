@@ -58,24 +58,24 @@ We will need to compile the MAVEN \*.c codes for generating Hessian and adjacenc
 AR-PRED requires an all-atom PDB file as its input. The user should make sure that non-standard or modified amino acids (other than the 20 standard amino acids) are be replaced by their standard names in the PDB file before executing AR-PRED. Otherwise, AR-PRED will report error.
 
 AR-PRED has separate prediction models for active site and allosteric site residues in a given protein chain. Following is the generic command.
-
-	`$ARPRED_HOME/master_script.pl pdbfile  chain outputdir  pred_type activesite_file`
+```
+$ARPRED_HOME/master_script.pl pdbfile  chain outputdir  pred_type activesite_file`
 	
-	`pdbfile`: Name of the all-atom PDB file. Must be present inside the output directory.
+pdbfile: Name of the all-atom PDB file. Must be present inside the output directory.
 
-	`chain`: Name of the chain in the PDB file to make predictions for
+chain: Name of the chain in the PDB file to make predictions for
 
-	`outputdir`: Name of the output directory. Must be created before running the master script.
+outputdir: Name of the output directory. Must be created before running the master script.
 
-	`pred_type`: 1 for active site predictions and 2 for allosteric site predictions
+pred_type: 1 for active site predictions and 2 for allosteric site predictions
 
-	`activesite_file`: Comma separated values (csv) file containing residue IDs in the PDB forming the active site. 
-	The residue IDs must be separated by commas and must correspond to the residue IDs in the PDB file. The file name must include
-	the path to the file.
+activesite_file: Comma separated values (csv) file containing residue IDs in the PDB forming the active site. 
+The residue IDs must be separated by commas and must correspond to the residue IDs in the PDB file. The file name must include
+the path to the file.
 
 For predicting active site residues change directory into the `outputdir` (`cd outputdir`) and run the following command.
-
-	`$ARPRED_HOME/master_script.pl pdbfile  chain outputdir  1`
+$ARPRED_HOME/master_script.pl pdbfile  chain outputdir  1
+```
 
 For predicting regulatory or allosteric site residues however, AR-PRED requires prior knowledge of active site residues. If you already know the residues which form the active site (or a part of the active site) in the chain of interest, then write the residue ids as comma separated values into a .csv (e.g., activesite_res.csv) file and pass the file as an argument to the master_script. In case of no prior knowledge of active site residues, the AR-PRED active site prediction tool or any other active site prediction software may be used. Use the following command to predict allosteric site residues.
 
